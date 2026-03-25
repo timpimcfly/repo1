@@ -8,7 +8,7 @@ terraform {
 
 
   backend "s3" {
-    bucket = "bucket-s3-2503"
+    bucket = "aws-bucket-2503"
     key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
     region = "us-east-1"
   }
